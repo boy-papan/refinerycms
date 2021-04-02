@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = Refinery::Version.required_ruby_version
 
   s.add_dependency 'refinerycms-i18n',            ['~> 5.0', '>= 5.0.0']
-  s.add_dependency 'railties',                    rails_version
+  s.add_dependency 'railties',                    ['< 7', '>= 6.0.0']
   s.add_dependency 'activerecord',                rails_version
   s.add_dependency 'actionpack',                  rails_version
   s.add_dependency 'truncate_html',               '~> 0.9'
