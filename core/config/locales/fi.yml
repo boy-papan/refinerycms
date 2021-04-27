@@ -37,7 +37,7 @@ fi:
         delete: Poista
         close: Sulje
       image_picker:
-        none_selected: '%{what}a ei ole valittu, klikkaa tästä valitaksesi yhden.'
+        none_selected: 'No image selected, please click here to add one.'
         remove_current: 'Poista nykyinen %{what}'
         change: Klikkaa tästä valitaksesi kuvan
         show: Näytä

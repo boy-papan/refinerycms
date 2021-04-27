@@ -38,6 +38,8 @@ fi:
           view_live_html: Katsele tätä sivua <br/><em>(avautuu uudessa ikkunassa)</em>
           hidden: piilotettu
           draft: luonnos
+          redirected: Redirected
+          skip_to_first_child: Skip to first child
         form_new_page_parts:
           title: Otsikko
         form_page_parts:
