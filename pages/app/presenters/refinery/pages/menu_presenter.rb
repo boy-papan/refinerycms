@@ -89,7 +89,7 @@ module Refinery
         url = find_url_for(item)
 
         # Now use all possible vectors to try to find a valid match
-        [path, CGI.decode(path)].include?(url) || path == "/#{item.original_id}"
+        [path, CGI.unescape(path)].include?(url) || path == "/#{item.original_id}"
       end
 
       def menu_item_css(menu_item, index)
